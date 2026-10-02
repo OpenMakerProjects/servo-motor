@@ -1,42 +1,26 @@
-# Servo Motor
+# Servo Motor Control
 
-This repository is a curated project extracted from the OpenMakerProjects review archive.
+## Description
+This project demonstrates how to control a servo motor using an Arduino board. The servo motor rotates to specific angles in a sequence defined in the code.
 
-## Provenance and licence
+## Circuit Diagram
+- Attached in the Servo Motor folder.
 
-- Original source: [Electroversity/Electroverse](https://github.com/Electroversity/Electroverse/tree/d661c40bc334bf8fd5da54e7ca89bb644775e4a9/Basics 1/07-Servo Motor)
-- Reviewed upstream revision: `d661c40bc334bf8fd5da54e7ca89bb644775e4a9`
-- Licence: `MIT`; see [LICENSE](LICENSE)
-- Exact source-file matches used for provenance: 1
+## Components
+- Arduino Board
+- Servo Motor
+- Jumper Wires
 
-The archived upstream documentation is preserved in [UPSTREAM_README.md](UPSTREAM_README.md).
+## Connections
+- Connect the signal pin of the servo motor to pin 9 of the Arduino board.
+- Connect the power (Vcc) and ground (GND) pins of the servo motor to the appropriate power and ground pins on the Arduino board.
 
-## Supported board
+## Usage
+1. Upload the provided Arduino code to your Arduino board.
+2. Ensure the servo motor is connected according to the specified connections.
+3. Power on the Arduino board.
+4. The servo motor will rotate to 0, 45, 90, 135, and 180 degrees in sequence, with a delay of 1 second between each rotation.
 
-- Arduino Uno/ATmega328P-compatible board
+## Author
+This code is designed by Prince Kushwaha.
 
-## Parts list
-
-Detected or documented parts; verify quantities and ratings against the upstream documentation:
-
-- Arduino Uno-compatible board
-- Servo motor
-
-## Required libraries
-
-- `No external include was detected; verify against the target board core`
-
-## Schematic status
-
-No machine-readable schematic is included. Consult the linked upstream source and verify all wiring before building.
-
-## Security and build status
-
-- No password, Wi-Fi credential, token, API-key or private-key signature was detected in the prepared files.
-- Executables, APKs, installers, nested archives and compiled firmware are excluded.
-- The project has not been independently hardware-tested by OpenMakerProjects.
-- Review voltage levels, current limits, grounding and external-load isolation before building.
-
-## Review workflow
-
-The initial import is submitted through a protected pull request. An independent approval is required before it can be merged into `main`.
